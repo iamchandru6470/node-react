@@ -1,0 +1,19 @@
+{
+  "name": "node-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-dependencies": "cd client && npm install",
+    "install-dependencies": "npm install && npm run client-dependencies",
+    "build": "cd client && npm run build",
+    "start1": "node server.js",
+    "start": "cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
